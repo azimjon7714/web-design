@@ -1,0 +1,718 @@
+body{
+	font-weight: 300;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: auto;	
+	position: relative;
+	background: #F6F7F0;
+}
+
+.centered{
+	text-align: center;
+}
+
+.navbar{
+	padding: 22px;	
+}
+
+.www{
+	background: #e2e2e2;
+}
+
+a{
+	color: #000;
+	font-weight: 600; 
+}
+
+.navbar-header {
+	position: relative;
+	top: 15px;
+	right: 50px;	
+	top: 7.5px;
+	font-size: 20px;
+	letter-spacing: 10px;
+}
+
+.navbar ul li:hover{
+	text-decoration: none;
+	background-color: #fff700;
+}
+
+.navbar-header span, a img{
+	width: 60px;
+	height: 60px;
+}
+
+.navbar-header ul li a:hover{
+	color: #fff700;
+}
+
+.navbar ul li{
+	color: #fff700;
+}
+
+.navabar-nav ul li.active{
+	background-color: #000;
+	text-decoration: none;
+}
+
+.container ul li{
+	position: relative;
+	left: 50px;
+	font-size: 19px;
+	list-style: none;
+	float: left;
+	margin-left: 40px;
+}
+
+#headerwrap{
+	position: relative;
+	top: 70px;
+	background: url(../img/slider_bg.png) no-repeat center top;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	min-height: 550px;
+}
+
+#headerwrap .container{
+	position: relative;
+	top: 100px;
+	right: 80px;
+}
+
+#headerwrap h1 {
+	position: relative;
+	display: inline-block;
+	height: 60px;
+	margin-top: 10px;
+	font-size: 35px;
+	background-color: #ffea00;
+	color: #000000;
+	font-family: Century Gothic;
+	font-weight: bold;
+	line-height: 66px;
+	text-transform: uppercase;
+}
+
+#headerwrap p{
+	display: inline-block;	
+	font-size: 17px;
+	background-color: #474742;
+	color: #fff;
+	font-weight: bold;
+	line-height: 33px;
+	margin-bottom: 2px;
+}
+
+#wrapper{
+	position: relative;
+	top: 100px;
+	width: 100%;
+	height: auto;
+	padding: 15px;
+}
+
+#wrapper h1, h3{
+	text-align: center;
+	font-family: "Century Gothic";
+	font-weight: 700;
+}
+
+#wrapper .row{
+	position: relative;
+	top: 50px;
+}
+
+#wrapper .block1{
+	width: 250px;
+	height: 285px;
+	background-color: #F3FF00;
+}
+#wrapper .block1 img{
+	width: 100%;
+	height: 285px;
+}
+
+
+#wrapper .block2{
+	width: 250px;
+	height: 285px;
+	background-color: #F3FF00;
+}
+
+#wrapper .block2 p {
+	position: relative;
+	top: 105px;
+	font-size: 30px;
+}
+
+#wrapper .block2 img{
+	position: relative;
+	top: 50px;
+	width: 150px;
+}
+
+
+#wrapper .block3{
+	width: 250px;
+	height: 285px;
+	background-color: #F3FF00;
+}
+
+#wrapper .block3 p {
+	position: relative;
+	top: 118px;
+	font-size: 30px;
+}
+
+#wrapper .block3 img{
+	position: relative;
+	top: 55px;
+	width: 150px;
+}
+
+#wrapper .block4{
+	width: 250px;
+	height: 285px;
+	background-color: #F3FF00;
+}
+
+#wrapper .block4 p {
+	position: relative;
+	top: 128px;
+	font-size: 30px;
+}
+
+#wrapper .block4 img {
+	position: relative;
+	top: 55px;
+	font-size: 30px;
+}
+
+
+
+#wrapper .inblock{
+	width: 250px;
+	height: 85px;
+	background-color: #454641;
+}
+
+#wrapper .inblock p{
+	padding: 10px;
+	color: #fff;
+	font-size: 20px;
+}
+
+#nextwrapper{
+	position: relative;
+	top: 200px;
+	width: 100%;
+	height: auto;
+	padding: 15px;
+	text-align: center;
+}
+
+#nextwrapper h4{
+	position: relative;
+	font-size: 20px;
+	padding: 10px;
+	width: 170px;
+	display: inline-block;	
+	background: #454641;
+	color: #ECFF00;
+	letter-spacing: 2px;
+}
+
+#nextwrapper p{
+	font-family: "Halvetica";
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#nextwrapper h5{
+	font-family: Century Gothic;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#nextwrapper  img{
+	width: 300px;
+	height: 280px;
+	padding-right: 30px;
+	padding-top: 20px;
+}
+
+#wrapper1{
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 200px;
+	text-align: center;
+	padding-left: 50px;
+}
+
+#wrapper1 h4{
+	position: relative;
+	top: 10px;
+	display: inline-block;
+	background-color: #454641;
+	font-size: 20px;
+	color: #ffff00;
+	width: 200px;
+	height: 40px;
+	padding: 10px;
+}
+
+#wrapper1 p{
+	font-size: 19px;
+	font-style: italic;
+	font-weight: bold;
+	padding-top: 25px;
+}
+
+#wrapper1 .a i {
+	position: relative;
+	top: 25px;
+	padding-top: 19px;
+	right: 60px;
+	width: 46px;
+	height: 68px;
+	background-color: #000;
+	color: #fff;	
+}
+
+#wrapper1 .b i{
+	position: relative;
+	top: 25px;	
+	padding-top: 19px;
+	left: 40px;
+	width: 46px;
+	height: 65px;
+	background-color: #000;
+	color: #fff;
+}
+
+
+#wrapper1 .c img{
+	position: relative;
+	top: 25px;
+	right: 100px;	
+	width: 150px;
+	height: 65px;	
+	padding-left: 40px;
+}
+
+#wrapper1 .c{
+	margin-left: 22px;
+}
+
+#footer{
+	position: relative;
+	top: 350px;
+	background: #414146;
+	width: 100%;
+	height: 560px;
+}
+
+#footer .fblock1{
+	position: relative;
+	right: 26px;
+}
+
+#footer .fblock1 h4{
+	position: relative;
+	top: 10px;
+	color: #fff;
+	font-size: 20px;
+}
+
+#footer .fblock1 p {
+	position: relative;
+	top: 20px;
+	display: inline-block;
+	color: #fff;
+	font-size: 13px;
+}
+
+#footer .fblock1 a{
+	text-decoration: none;
+	color: #fff;
+	background: #000;
+}
+
+#footer button{
+	position: relative;
+	top: 47px;
+	font-size: 20px;
+	width: 140px;
+	height: 45px;
+	background-color: #000;
+	border: 3px #2e2e2e;
+	border-bottom: 2px solid #DDFE14;
+}
+
+#footer .fblock1 a:hover{
+	text-decoration: none;
+	color: #E2E7C8;
+}
+
+#footer h4.h4{
+	position: relative;
+	top: 100px;
+	color: #fff;
+	font-size: 22px;
+	font-family: "Century Gothic"
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+#footer div img{
+	position: relative;
+	top: 120px;
+	width: 140px;
+	height: 70px;
+	right: 15px;
+	padding-right: 48px;
+	padding-top: 7px;
+}
+
+
+#footer .fblock2 h4{
+	position: relative;
+	top: 10px;
+	color: #fff;
+	font-size: 20px;
+}
+
+#wrapper1 i.fa{
+	position: relative;
+	font-size: 30px;
+	background-color: #000;
+}
+
+#wrapper1 i.fa:hover{
+	color: 	#E6EAD3;
+	background-color: #2B2C24;
+}
+
+#footer .fblock2 {
+	position: relative;
+	right: 30px;
+	float: right;
+}
+
+#footer .fa-twitter{
+	position: relative;
+	top: 27px;
+	font-size: 33px;
+	float: left;
+	color: #fff;
+}
+
+#footer .fa-twitter:hover{
+	color: #fff309;
+}
+
+#footer .fblock2 p{
+	position: relative;
+	display: inline-block;	
+	left: 41px;
+	bottom: 9px;	
+	color: #fff;
+	font-size: 13px;
+	width: 360px;
+}
+
+#footer .fblock2 a{
+	color: #fff700;
+}
+
+#footer .fblock2 a:hover{
+	color: #c4bf12;
+}
+
+
+#footer .fblock2 span{
+	position: relative;
+	top: 8px;
+	left: 8px;
+	font-size: 11px;
+	color: #fff700;
+}
+
+#footer .fblock2 p.p1{
+	position: relative;
+	display: inline-block;	
+	left: 41px;
+	top: 4px;	
+	color: #fff;
+	font-size: 13px;
+	width: 360px;
+}
+
+#footer .fa-twitter.f1{
+	position: relative;
+	top: 40px;
+	font-size: 33px;
+	float: left;
+	color: #fff;
+}
+
+#footer .fa-twitter.f1:hover{
+	color: #fff700;
+}
+
+#footer .fa-twitter.f2{
+	position: relative;
+	top: 46px;
+	font-size: 38px;
+	float: left;
+	color: #fff;
+}
+
+#footer .fa-twitter.f2:hover{
+	color: #fff700;
+}
+
+#footer .fblock2 p.p2{
+	position: relative;
+	display: inline-block;	
+	left: 41px;
+	top: 6px;	
+	color: #fff;
+	font-size: 13px;
+	width: 360px;
+}
+
+#footer .fblock2 span.s2{
+	position: relative;
+	top: 18px;
+	left: 8px;
+	font-size: 11px;
+	color: #fff700;
+}
+
+#footer .fa-twitter.f3{
+	position: relative;
+	top: 57px;
+	font-size: 38px;
+	float: left;
+	color: #fff;
+}
+
+#footer .fa-twitter.f3:hover{
+	color: #fff700;
+}
+
+#footer .fblock2 p.p3{
+	position: relative;
+	display: inline-block;	
+	left: 41px;
+	top: 17px;	
+	color: #fff;
+	font-size: 13px;
+	width: 360px;
+}
+
+#footer .fblock2 span.s3{
+	position: relative;
+	top: 27px;
+	left: 8px;
+	font-size: 11px;
+	color: #fff700;
+}
+
+#footer .fa-twitter.f4{
+	position: relative;
+	top: 70px;
+	font-size: 38px;
+	float: left;
+	color: #fff;
+}
+
+#footer .fa-twitter.f4:hover{
+	color: #fff700;
+}
+
+#footer .fblock2 p.p4{
+	position: relative;
+	display: inline-block;	
+	left: 41px;
+	top: 30px;	
+	color: #fff;
+	font-size: 13px;
+	width: 360px;
+}
+
+#footer .fblock2 span.s4{
+	position: relative;
+	top: 42px;
+	left: 8px;
+	font-size: 11px;
+	color: #fff700;
+}
+
+#footer .fblock2 span.s5{
+	position: relative;
+	top: 42px;
+	left: 44px;
+	font-size: 11px;
+	color: #fff700;
+}
+
+#footer .fblock2 h3{
+	position: relative;
+	top: 67px;
+	right: 70px;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+#footer .fblock2 .footericon{
+	position: relative;
+	top: 30px;
+	left: 225px;
+	color: #000;
+	font-size: 15px;
+
+}
+ 
+.q11, .q22, .q33, .q44, .q55, .q66, .q77, .q88{
+	background: #000;
+	color: #fff;
+	padding: 7px;
+}
+
+#footer .fblock3{
+	position: relative;
+	left: 25px;
+}
+
+#footer .fblock3 h4{
+	position: relative;
+	top: 10px;
+	color: #fff;
+}
+
+#footer .fblock3 i{
+	color: #000;
+}
+
+#footer .fblock3 .famaker{
+	position: relative;
+	top: 40px;
+	font-size: 15px;
+	background: #000;
+	color: #fff;
+	padding: 5px;
+}
+
+#footer .fblock3 p.qq1{
+	position: relative;
+	left: 40px;
+	top: 8px;
+	color: #fff;
+}
+
+#footer .fblock3 .whatsapp{
+	position: relative;
+	top: 35px;
+	font-size: 13px;
+	background: #000;
+	color: #fff;
+	padding: 5px;
+}
+
+#footer .fblock3 .aaa{
+	position: relative;
+	left: 88.5px;
+	color: #fff;
+}
+
+#footer .fblock3 .fasms{
+	position: relative;
+	top: 30px;
+	color: #fff;
+	background-color: #000;
+	padding: 4px;
+
+}
+
+#footer .fblock3 a{
+	color: #fff700;
+}
+
+#footer .fblock3 a:hover{
+	color: #c4bf12;
+}
+
+#footer .fblock3 h3{
+	position: relative;
+	color: #fff;
+	padding-top: 90px;
+	right: 80px;		
+}
+
+#footer .fblock3 p.ww1{
+	position: relative;
+	top: 7px;	
+	color: #fff;
+}
+
+#footer .fblock3 input{
+	position: relative;	
+	top: 40px;
+	border: none;
+	border-bottom: 1px solid #fff700;
+	background: none;	
+	
+
+}
+
+
+#footer input.input1{
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+#footer .fblock3 .lasticon{
+	position: relative;
+	top: 43px;
+	right: 2px;
+	color: #fff;
+	background-color: #000;
+	padding: 4px;
+
+}
+
+#lastfooter{
+	position: relative;
+	top: 312px;
+	padding: 20px;
+	background-color: #000;
+	border-top: 2px solid #2d2d2e;
+} 
+
+#lastfooter a{
+	color: #666669;
+}
+
+#lastfooter a:hover{
+	text-decoration: none;
+	color: #9c9ca6;
+}
+
+#lastfooter ul li{
+	position: relative;
+	right: 20px;
+	padding-right: 50px;
+}
+
+#lastfooter ul{
+	position: relative;
+	left: 90px;
+}
